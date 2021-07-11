@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    padding-top: 10px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    max-width: 200%;
+ padding: 10px;
+border-radius: 20px solid black;
+}
+
+.account  {
+    background-color: blue;
+    color: white;
+}
+.nav-right .account span{
+    color: white;
+}
+.content{
+    display: flex;
+    margin-top: 12px;
+}
+.feed-section{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.sidebaroption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebaroption .material-icons,
+.fa-twitter{
+    padding: 20px;
+}
+.sidebaroptionh2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sidebaroption:hover {
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+.sidebaroption.active{
+    color: var(--twitter-color);
+}
+
+.nav-right span{
+    color: blue;
+}
